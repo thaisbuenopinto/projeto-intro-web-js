@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    gap:10px
+
+    
+}
+header{
+display: flex;
+
+flex-direction: row;
+width: 100vw;
+height: 8vh;
+background: #FBFBFB;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    justify-content:center;
+    width: 100vw;
+    height: 8vh;  
+}
+
+.igual{
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-evenly;
+width: 50vw;
+height: 8vh;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #0E0E0E;
+
+}
+
+.igual li {
+    list-style: none;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+    height: 30vh;
+    background-color: #F6C34A;
+    padding: 2.5em;
+       
+}
+
+
+.parte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    flex-direction: column;
+    height: 30vh;
+    background-image: url("./images/background-hero\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F6C34A;
+    
+}
+
+.parte2 {
+    height: 65vh;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.letra {
+    color: white;
+    background-color: black;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 9px;
+    width: 130%;
+    height: 130%;
+}
+
+ #sobre {
+    margin-top: 1%;
+    margin-block-end: 1%;
+}
+#texto{
+    max-width: 60%;
+} 
+#depoimento{
+    margin-top: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.card{
+    font-size: 60%;
+    text-align: center;
+    height: 15%;
+    max-width: 70%;
+    color:black ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px
+
+}
+.outraCard{
+    height: 30vh;
+    width: 15vw;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin:0 5%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.imagem0{
+    background-color: #0E0E0E;
+    height: 100%;
+    width: 20vw;
+}
+
+.imagem1{
+    height: 25%;
+    width:25% ;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+.imagem2{
+    height: 45%;
+    width:75% ;
+}
+
+.redes{
+    height: 10%;
+    width: 10%;
+}
+
+.foot1{
+    
+    
+    margin: 10px 20px
+    
+}
+.foot2{
+    margin-top: 10px;
+    list-style: none;
+    
+}
+
+.foot3{
+    margin-top: 10px;
+    
+}
+
+.foot4{
+    margin-top: 10px;
+    
+}
+
+.subfoot{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0.5em;
+    list-style: none;
+}
+
+.subfoot ul li { margin-bottom: 0.5em; list-style: none;}
+
+p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+ }
+
+
+
+ .cardE{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color:#F6C34A;
+    width: 100vw;
+    color: #0E0E0E;
+
+}
+
+#outraCard2{   
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+   /*  justify-content: center;
+    align-items: center; */
+    
+    
+    
+}
+
+.resolver{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 4em;
+    height: 40vh;
+    width: 20vw;
+   
+}
+#palavra{
+    margin-top:  20px;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+}
+    
+.centralizador {
+        width: 100%;
+          display: flex;
+          justify-content: center;
+    }
+
+
+#parte3{
+    
+    height: 65vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.card3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #FBFBFB;
+    color: #0E0E0E;
+    width: 60vw; 
+    height: 40%;
+    justify-items: center;
+    align-items: center;
+}
+
+.resolver2{
+    text-align: center;
+
+}
+
+.mainContato{
+    display: flex;
+    background-color: #0E0E0E;
+    height: 30vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    height: 60%;
+    justify-items: center;
+    align-items: center;
+    background-color: #FBFBFB;
+
+}
+
+aside{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    background-color: #0E0E0E;
+    height: 60vh;
+    width: 25vw;
+    color:#FBFBFB;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom: 2px solid black;
+    
+}
+
+.letra2{
+    color: #FBFBFB;
+    margin-top: 2em;
+}
+
+section{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    background-color:#F6C34A;
+    height: 60vh;
+    width: 73.7vw;
+    color:#FBFBFB;
+    border-bottom: 2px solid black;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.busca-turma{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    background-color: #0E0E0E;
+    color: #FBFBFB;
+    height: 30px;
+    width: 80px;
+    
+}
